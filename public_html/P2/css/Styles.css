@@ -1,0 +1,46 @@
+body{
+    background: white;
+}
+
+
+.container{
+    font-size: 30px;
+    text-align: center
+}
+
+
+.container img{
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    border-radius: 100%;
+    border: solid #333;
+    color: black;
+}
+
+.info{
+    text-align: center;
+}
+
+.panel-heading-title{
+    width: 100%;
+    
+}
+.panel .panel-success{
+    display: flex;
+    justify-content: space-around;
+}
+
+.panel-heading{
+    border: 2px solid #333;
+    margin-bottom: 10px;
+    text-align: center;
+    width: 50%;
+}
+
+.panel-body{
+    border: 2px;
+    margin-bottom: 10px;
+    text-align: center;
+    width: 50%; 
+}

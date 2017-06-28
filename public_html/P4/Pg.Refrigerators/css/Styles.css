@@ -1,0 +1,49 @@
+.navbar{
+    margin-bottom: 0;
+}
+
+.jumbotron{
+    background: black;
+    color: white;
+    padding: 20px 0;
+}
+.jumbotron .titulo-blog{
+    font-size: 50px;
+}
+
+/* -- post -- */
+.main{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.post{
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #0f0f0f;
+}
+
+.post .post-title a{
+    color: black;
+}
+
+.post .tumb{
+    margin-right: 10px;
+    width: 40%;
+}
+
+.post .tumb img{
+    width: 100%;
+}
+
+.post .contenedor-button{
+    width: 100%;
+}
+
+@media screen and (max-width: 768px){
+    .post .tumb{
+        width: 100%;
+        margin-bottom: 20px;
+        margin-right: 0;
+    }
+}

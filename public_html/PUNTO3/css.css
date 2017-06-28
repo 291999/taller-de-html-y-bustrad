@@ -1,0 +1,34 @@
+.titulo{
+  text-align: center;
+  position: relative;
+  top: -200px;
+}
+header{
+  width: 90%;
+  color: white;
+  margin: 0 auto;
+}
+img{
+    height: 400px;
+  width: 100px;
+   display: block;
+  margin: 0 auto;
+  width: 90%
+}
+.menu a{
+  font-size: 30px;
+  color: black;
+}
+.parrafo{
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;  
+}
+.que{
+  height: 50px;
+  width: 50px;
+  display: block;
+  margin:auto;
+  width: 40%;
+}
