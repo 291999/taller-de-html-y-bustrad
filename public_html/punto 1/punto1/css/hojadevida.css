@@ -24,7 +24,7 @@ img {
   border-radius: 20px;
 
 }
-.contenedor {
+.container-fluid {
   margin: 0 auto;
   width: 100%;
   max-width: 1000px;
@@ -36,7 +36,7 @@ img {
 
 
 }
-.cajon1{
+.drawer1{
   margin: 0 auto;
   border: 2px solid grey;
   margin-bottom: 10px;
@@ -48,17 +48,15 @@ img {
 
 
 @media screen and (max-widht:1024px) {
-  .contenedor {
+  .container-fluid {
     width: 100%;
     
     
   }
   .body {
     width:100%;
-   
-    
-  }
-  .cajon1{
+   }
+  .drawer1{
     width: 100%;
     text-align: center;
     
@@ -76,7 +74,7 @@ img {
 }
 
 @media screen and (max-width:428px) {
-  .contenedor {
+  .container-fluid {
     width:100%;
     flex-wrap: wrap;
 
@@ -85,7 +83,7 @@ img {
     width:100%;
     flex-wrap: wrap;
   }
-  .cajon1{
+  .drawer1{
     width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -97,7 +95,7 @@ img {
 }
 
 @media screen and (min-width:768px) {
-  .contenedor {
+  .container-fluid {
     width:100%;
     display: flex;
     flex-wrap: wrap;
@@ -105,7 +103,7 @@ img {
   .body {
     width:100%;
   }
-  .cajon1{
+  .drawer1{
     width: 100%;
     display: flex;
     flex-wrap: wrap;

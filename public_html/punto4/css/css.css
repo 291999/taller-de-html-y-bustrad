@@ -1,4 +1,4 @@
-.title{
+.titulo{
   text-align: center;
   position: relative;
   top: -200px;
@@ -19,13 +19,13 @@ img{
   font-size: 30px;
   color: black;
 }
-.paragraph{
+.parrafo{
   width: 90%;
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;  
 }
-.what{
+.que{
   height: 50px;
   width: 50px;
   display: block;
